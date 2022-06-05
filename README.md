@@ -4,7 +4,7 @@ To use it, you must have `SMK 32 channels multi-array electrodes device`.
 
 ## About this repository:
 -------------------------
-This repository is one of the Supplementary Materials of our journal papaer "**A CW-CNN Regression Model-based Real-Time System for Virtual Hand Control**", named "**Source Code S1**". You can simply use it for real-time sEMG signal observation; Or you can train a model by yourself, update the model using transfer learning in different days, then load the trained model to this GUI tool, and connect to robot or virtual hand for real-time implementation.  
+This repository is one of the Supplementary Materials of our journal paper "**A CW-CNN Regression Model-based Real-Time System for Virtual Hand Control**", named "**Source Code S1**". You can simply use it for real-time sEMG signal observation; Or you can train a model by yourself, update the model using transfer learning in different days, then load the trained model to this GUI tool, and connect to robot or virtual hand for real-time implementation.  
 
 The paper link:  
 
