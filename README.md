@@ -14,7 +14,7 @@ The paper link:
 ## How to build environment:
 -------------------------
 1. cd to the path of your project folder
-2. git clone 
+2. git clone https://github.com/ZixuanQIN/Real_Time_Control_System_GUI.git
 3. mkdir model (to build an empty folder named "model", it should be in the same path as the "RealTimeControlSystem" folder)
 4. cd RealTimeControlSystem
 5. pip3 install -r requirements.txt
