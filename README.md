@@ -1,7 +1,7 @@
 # Real_Time_Control_System_GUI
 The GUI tool for CW-CNN based prosthetic hand real-time control system.   
 **Important:**   
-Due to the **Confidential Agreement**, the**AT Commands** of SMK multi-array eletrode are secret. We deleted the class named "SerialPort". Please build your own EMG acquisition program based on LSL, and modify the corresponding part in the **SMK_LSL_START() function from module/GUI.py, line218-247**.
+Due to the **Confidential Agreement**, the **AT Commands** of SMK multi-array eletrode are secret. We deleted the class named "SerialPort". Please build your own EMG acquisition program based on LSL, and modify the corresponding part in the **SMK_LSL_START() function from module/GUI.py, line218-247**.
 If you don't familiar with LSL (lab streaming layer), please refer to this repositories: https://github.com/sccn/labstreaminglayer 
 
 ## About this repository:
