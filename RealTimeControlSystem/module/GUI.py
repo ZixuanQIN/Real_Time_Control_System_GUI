@@ -221,22 +221,30 @@ class DataMonitor(QWidget, SIGNAL):
 		self.MVC_btn.setEnabled(True)
 
 		"""
-		start another terminal to run smk program
-		- If the system is Linux Ubuntu, use "gnome-terminal".
-		  My Linux system is Ubuntu Mate, so I use "mate-terminal"
-		- If the system is Windows, use "start powershell.exe"
-		- If the system is Mac OS, you should install applescript.
+		We deleted the SerialPort() function from smk.py
+		so please complete your own data acquisition program based on LSL, 
+		and open another terminal to run, just refer to the following comment part 
+		and remove the following print line:
 		"""
-		if platform.system() == 'Linux':
-			os.system("mate-terminal -e 'bash -c \"python smk.py; exec bash\"'")
-		elif platform.system() == 'Windows':
-			os.system("start powershell.exe cmd /k 'python smk.py'")
-		elif platform.system() == 'Darwin':
-			try:
-				import applescript
-				applescript.app('Terminal').do_script("python smk.py")
-			except ImportError:
-				raise RuntimeError('Can not import \033[1;31mapplescript\033[0m, make sure \033[1;31mapplescript\033[0m package is installed.')
+		print('Please complete your own data acquisition program based on LSL, and delete this sentence from line 227 in module/GUI.py')
+
+		# """
+		# start another terminal to run smk program
+		# - If the system is Linux Ubuntu, use "gnome-terminal".
+		#   My Linux system is Ubuntu Mate, so I use "mate-terminal"
+		# - If the system is Windows, use "start powershell.exe"
+		# - If the system is Mac OS, you should install applescript.
+		# """
+		# if platform.system() == 'Linux':
+		# 	os.system("mate-terminal -e 'bash -c \"python smk.py; exec bash\"'")
+		# elif platform.system() == 'Windows':
+		# 	os.system("start powershell.exe cmd /k 'python smk.py'")
+		# elif platform.system() == 'Darwin':
+		# 	try:
+		# 		import applescript
+		# 		applescript.app('Terminal').do_script("python smk.py")
+		# 	except ImportError:
+		# 		raise RuntimeError('Can not import \033[1;31mapplescript\033[0m, make sure \033[1;31mapplescript\033[0m package is installed.')
 
 	def Model_Select_Btn(self):
 		fileName, filetype = QFileDialog.getOpenFileName(self,
