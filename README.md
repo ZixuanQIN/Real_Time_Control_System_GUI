@@ -4,6 +4,8 @@ The GUI tool for CW-CNN based prosthetic hand real-time control system.
 Due to the **Confidential Agreement**, the **AT Commands** of SMK multi-array eletrode are secret. We deleted the class named "SerialPort". Please build your own EMG acquisition program based on LSL, and modify the corresponding part in the **SMK_LSL_START() function from module/GUI.py, line218-247**.
 If you don't familiar with LSL (lab streaming layer), please refer to this repositories: https://github.com/sccn/labstreaminglayer 
 
+You can also change the CW-CNN model to your proposal method, please remember to modify the input and output size accordingly.  
+
 ## About this repository:
 -------------------------
 This repository is one of the Supplementary Materials of our journal paper "**A CW-CNN Regression Model-based Real-Time System for Virtual Hand Control**", named "**Source Code S1**". You can simply use it for real-time sEMG signal observation; Or you can train a model by yourself, update the model using transfer learning in different days, then load the trained model to this GUI tool, and connect to robot or virtual hand for real-time implementation.  
