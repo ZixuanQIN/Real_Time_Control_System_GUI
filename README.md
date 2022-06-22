@@ -12,7 +12,7 @@ This repository is one of the Supplementary Materials of our journal paper "**A 
 
 The paper link:  
 
-**- Required Device:** SMK Multi-Array Electrode Device (32 channels)  
+**- Required Device:** SMK Multi-Array Electrode Device (32 channels)  If you have your own device, please revise the code accordingly, including the input/output size and data acquisition program.
 **- Optional:** Virtual Hand program or real Prosthetic Hand
 
 ## How to build environment:
@@ -28,5 +28,5 @@ The paper link:
 1. cd RealTimeControlSystem.
 2. python3 RealTimeSystem.py.
 3. click "Open Signal Monitor".
-4. click "Start SMK Device", and select the port to which the SMK is connected in the terminal or command prompt, and enter. When you can see the EMG signal data stream, go back to the GUI tool and click "Start".
+4. click "Start SMK Device", and select the port to which the SMK is connected in the terminal or command prompt, and enter. When you can see the EMG signal data stream, go back to the GUI tool and click "Start". (If you use another device for EMG acquisition, you can change the name of this botton. This part can be revised from module/GUI.py, line218-247)
 5. About the next steps, please refer to the supplimentary matrial "Movie S1" to check the usage of the GUI tool.
