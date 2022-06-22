@@ -226,7 +226,7 @@ class DataMonitor(QWidget, SIGNAL):
 		and open another terminal to run, just refer to the following comment part 
 		and remove the following print line:
 		"""
-		print('Please complete your own data acquisition program based on LSL, and delete this sentence from line 227 in module/GUI.py')
+		print('Please complete your own data acquisition program based on LSL, and delete this sentence from line 229 in module/GUI.py')
 
 		# """
 		# start another terminal to run smk program
