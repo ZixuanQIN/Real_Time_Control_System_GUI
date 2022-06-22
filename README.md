@@ -12,7 +12,7 @@ This repository is one of the Supplementary Materials of our journal paper "**A 
 
 The paper link:  
 
-**- Required Device:** SMK Multi-Array Electrode Device (32 channels)  If you have your own device, please revise the code accordingly, including the input/output size and data acquisition program.
+**- Required Device:** SMK Multi-Array Electrode Device (32 channels)  If you have your own device, please revise the code accordingly, including the input/output size and data acquisition program.  
 **- Optional:** Virtual Hand program or real Prosthetic Hand
 
 ## How to build environment:
